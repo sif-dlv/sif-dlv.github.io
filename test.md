@@ -1,5 +1,5 @@
 ---
-layout: std
+layout: pg
 mathjax: true
 permalink: /test/
 ---
