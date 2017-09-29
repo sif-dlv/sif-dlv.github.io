@@ -1,0 +1,18 @@
+# Site settings
+title: Deep Learning for Vision
+email: ioannis.avrithis@inria.fr
+description: "Course material for SIF course: Deep Learning for Vision"
+baseurl: ""
+url: "https://sif-dlv.github.io/"
+github_username: sif-dlv
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
