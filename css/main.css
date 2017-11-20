@@ -1,3 +1,36 @@
+/* Papers */
+/* ----------------------------------------------------------*/
+
+.papers-wrap {
+  font-size: 18px;
+}
+
+.papers-header {
+  font-size: 24px;
+  color: #8C1515;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.papers-item a{
+  color: #333;
+  display: block;
+  padding: 3px;
+}
+.papers-item {
+  border-bottom: 1px solid #CCC;
+}
+
+.paper {
+  font-size: 16px;
+  color: #08A;
+  margin-left: 20px;
+}
+.paper:nth-child(even) {
+  background-color: #f7f6f1;
+}
+
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -111,25 +144,6 @@ a:visited { color: #205caa; }
   font-size: 16px;
   color: #08A;
   margin-left: 10px;
-}
-
-.papers-item a{
-  color: #333;
-  display: block;
-  padding: 3px;
-}
-.papers-item {
-  border-bottom: 1px solid #CCC;
-}
-
-.paper {
-  font-size: 16px;
-  color: #08A;
-  margin-left: 20px;
-}
-
-.paper:nth-child(even) {
-  background-color: #f7f6f1;
 }
 
 .notyet {
