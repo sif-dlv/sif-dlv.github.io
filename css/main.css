@@ -113,6 +113,15 @@ a:visited { color: #205caa; }
   margin-left: 10px;
 }
 
+.papers-item a{
+  color: #333;
+  display: block;
+  padding: 3px;
+}
+.papers-item {
+  border-bottom: 1px solid #CCC;
+}
+
 .paper {
   font-size: 16px;
   color: #08A;
