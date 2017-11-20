@@ -116,7 +116,7 @@ a:visited { color: #205caa; }
 .paper {
   font-size: 16px;
   color: #08A;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .paper-item:nth-child(even) {
