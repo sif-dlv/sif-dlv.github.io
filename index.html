@@ -48,163 +48,29 @@ layout: home
 <div class="container sec">
 	<table class="table">
 		<tr class="active">
-			<th>Event</th><th>Date</th><th>Room</th><th>Description</th>
+			<th>Event</th>
+			<th>Date</th>
+			<th>Room</th>
+			<th>Description</th>
 			<th><a href="#permission">Material<sup>*</sup></a></th>
 		</tr>
-		<tr>
-			<td>Lecture&nbsp;1</td>
-			<td>Monday<br>Nov 20</td>
-			<td>B02B-E110 (23)</td>
+{%- for e in site.data.events %}
+		<tr{%if e.class%} class="{{e.class}}"{%endif%}>
+			<td>{{e.id|split:" "|join:"&nbsp;"}}</td>
+			<td>{{e.day}}<br>{{e.date}}</td>
+			<td>{{e.room}}</td>
 			<td>
-				<b>Introduction</b> <br>
-				Research field. Neuroscience, computer vision and machine learning background. Modern deep learning. About this course.
+				<b>{{e.title}}</b>
+	{%-if e.desc%} <br>
+				{{e.desc}}
+	{%-endif%}
 			</td>
 			<td>
-				<a href='slides/intro.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;2</td>
-			<td>Wednesday<br>Nov 22</td>
-			<td>B12D i-59 (44)</td>
-			<td>
-				<b>Representation</b> <br>
-				Global/local visual descriptors, dense/sparse representation, feature detectors. Encoding/pooling, vocabularies, bag-of-words. Match kernels, embedding, Fisher vectors, VLAD.
-			</td>
-			<td>
-				<a href='slides/repr.pdf'>[slides]</a>
+			{%-if e.slides%}<a href='slides/{{e.slides}}.pdf'>[slides]</a>{%endif-%}
+			{%-if e.link%}<a href='{{e.link}}'>[{{e.material}}]</a>{%endif-%}
 			</td>
 		</tr>
-		<tr>
-			<td>Lecture&nbsp;3</td>
-			<td>Monday<br>Nov 27</td>
-			<td>B12D i-58 (44)</td>
-			<td>
-				<b>Matching</b> <br>
-				Spatial matching, geometric models, RANSAC, Hough transform. Pyramid matching, spatial and Hough pyramids. Object detection, subwindow search, Hough model, deformable part model.
-			</td>
-			<td>
-				<a href='slides/match.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;4</td>
-			<td>Wednesday<br>Dec 6</td>
-			<td>B12D i-58 (44)</td>
-			<td>
-				<b>Indexing</b> <br>
-				Clustering, dimensionality reduction, density estimation, nearest neighbor search. Tree-based methods, hashing, product quantization. Inverted index and multi-index.
-			</td>
-			<td>
-				<a href='slides/index.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;5</td>
-			<td>Monday<br>Dec 11</td>
-			<td>B12D i-59 (44)</td>
-			<td>
-				<b>Learning</b> <br>
-				Naive Bayes, nearest neighbor classification. Regression, classification. Logistic regression, support vector machines, neural networks. Activation functions, loss functions, gradient descent.
-			</td>
-			<td>
-				<a href='slides/learn.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;6</td>
-			<td>Wednesday<br>Dec 13</td>
-			<td>B12D i-58 (44)</td>
-			<td>
-				<b>Differentiation</b> <br>
-				Computational graphs, back-propagation, automatic differentiation.
-			</td>
-			<td>
-				<a href='slides/diff.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;7</td>
-			<td>Monday<br>Dec 18</td>
-			<td>B12D i-58 (44)</td>
-			<td>
-				<b>Convolution</b> <br>
-				Pooling, strided convolution, dilated convolution. Convolutional networks. Deconvolution, fully convolutional networks.
-			</td>
-			<td>
-				<a href='slides/conv.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr class="info">
-			<td>Milestone</td>
-			<td>Tuesday<br>Dec 19</td>
-			<td></td>
-			<td>
-				<b>Oral presentation</b> <br>
-				Selection of papers to present.
-			</td>
-			<td>
-				<a href="oral">[instructions]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;8</td>
-			<td>Wednesday<br>Jan 10</td>
-			<td>B12D i-58 (44)</td>
-			<td>
-				<b>Optimization</b> <br>
-				Parameter initialization, data-dependent initialization, normalization, regularization. Optimization methods, second-order methods, Hessian-free methods.
-			</td>
-			<td>
-				<a href='slides/opt.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;9</td>
-			<td>Monday<br>Jan 15</td>
-			<td>B12D i-52 (44)</td>
-			<td>
-				<b>Detection</b> <br>
-				Class-agnostic region proposals, bounding box regression, non-maxima suppression, part-based models, spatial transformers, attention networks.
-			</td>
-			<td>
-				<a href='slides/det.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr>
-			<td>Lecture&nbsp;10</td>
-			<td>Monday<br>Jan 22</td>
-			<td>B12D i-52 (44)</td>
-			<td>
-				<b>Retrieval</b> <br>
-				Siamese, triplet, and batch-wise loss functions. Embedding, pooling, dimensionality reduction and manifold learning. Partial matching, spatial matching, quantization, diffusion.
-			</td>
-			<td>
-				<a href='slides/ret.pdf'>[slides]</a>
-			</td>
-		</tr>
-		<tr class="warning">
-			<td>Evaluation&nbsp;1</td>
-			<td>Wednesday<br>Jan 24</td>
-			<td>B12D i-58 (44)</td>
-			<td>
-				<b>Written exam</b> <br>
-			</td>
-			<td>
-				<a href=''></a>
-			</td>
-		</tr>
-		<tr class="warning">
-			<td>Evaluation&nbsp;2</td>
-			<td>Monday<br>Jan 29</td>
-			<td>Jersey</td>
-			<td>
-				<b>Oral presentations</b> <br>08:00 - 12:00 <br>
-			</td>
-			<td>
-				<a href="oral">[instructions]</a>
-			</td>
-		</tr>
+{%- endfor %}
 	</table>
 	<p><a name="permission">
 		<sup>*</sup>Permission is hereby given to download and reproduce the material for non-commercial purposes including education and research, provided the source is acknowledged.
@@ -214,5 +80,5 @@ layout: home
 
 <div class="container sec">
 	<h2>Prerequisites</h2> <br>
-	Basic knowledge of Linear Algebra, Calculus, Probabilities, Machine Learning, Python, C++.
+	Basic knowledge of Linear Algebra, Calculus, Probabilities, Machine Learning, Signal Processing, Python.
 </div>
