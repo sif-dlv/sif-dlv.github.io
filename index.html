@@ -8,7 +8,8 @@ layout: home
 	<div id="coursedesc">
 	<p>This course studies learning visual representations for common computer vision tasks including matching, retrieval, classification, and object detection. Related problems are discussed including indexing, nearest neighbor search, clustering, and dimensionality reduction. The course discusses well-known methods from low-level description to intermediate representation, and their dependence on the end task. It then studies a data-driven approach where the entire pipeline is optimized jointly in a supervised fashion, according to a task-dependent objective. Deep learning models are studied in detail and interpreted in connection to conventional models. The focus of the course is on recent, state of the art methods and large scale applications.</p>
 	<p>The course is part of master program <a href="http://master.irisa.fr/">Research in Computer Science (SIF)</a> of <a href="https://www.univ-rennes1.fr/">University of Rennes 1</a>.</p>
-	<p>The following refers to the first iteration of the course in <b>Nov. 2017 - Jan. 2018</b>.</p>
+	<p>The following refers to the second iteration of the course in <b>Nov. 2018 - Jan. 2019</b>. Past iterations follow:</p>
+	<p><a href="index2017.html">2017-18</a></p>
 	</div>
 </div>
 </div>
@@ -22,7 +23,7 @@ layout: home
     </div>
     <div class="col-md-3">
       <h2>Discussions</h2>
-      <a href="https://piazza.com/inria.fr/fall2017/dlv">Piazza</a>
+      <a href="https://piazza.com/inria.fr/fall2018/dlv">Piazza</a>
     </div>
     <div class="col-md-3">
       <h2>Class</h2>
@@ -54,7 +55,7 @@ layout: home
 			<th>Description</th>
 			<th><a href="#permission">Material<sup>*</sup></a></th>
 		</tr>
-{%- for e in site.data.events %}
+{%- for e in site.data.events2018 %}
 		<tr{%if e.class%} class="{{e.class}}"{%endif%}>
 			<td>{{e.id|split:" "|join:"&nbsp;"}}</td>
 			<td>{{e.day}}<br>{{e.date}}</td>
@@ -66,7 +67,7 @@ layout: home
 	{%-endif%}
 			</td>
 			<td>
-			{%-if e.slides%}<a href='slides/{{e.slides}}.pdf'>[slides]</a>{%endif-%}
+			{%-if e.slides%}<a href='slides/2018/{{e.slides}}.pdf'>[slides]</a>{%endif-%}
 			{%-if e.link%}<a href='{{e.link}}'>[{{e.material}}]</a>{%endif-%}
 			</td>
 		</tr>
