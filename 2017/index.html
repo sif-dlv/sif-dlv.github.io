@@ -54,7 +54,7 @@ layout: home
 			<th>Description</th>
 			<th><a href="#permission">Material<sup>*</sup></a></th>
 		</tr>
-{%- for e in site.data.events2017 %}
+{%- for e in site.data.2017.events %}
 		<tr{%if e.class%} class="{{e.class}}"{%endif%}>
 			<td>{{e.id|split:" "|join:"&nbsp;"}}</td>
 			<td>{{e.day}}<br>{{e.date}}</td>
