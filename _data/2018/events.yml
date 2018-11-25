@@ -62,15 +62,15 @@
    #desc: Pooling, strided convolution, dilated convolution. Convolutional networks. Deconvolution, fully convolutional networks.
    #slides: conv
 
-#-  class: info
-   #id: Milestone
-   #day: Tuesday
-   #date: Dec 19
-   #room:
-   #title: Oral presentation
-   #desc: Selection of papers to present.
-   #link: oral
-   #material: instructions
+-  class: info
+   id: Milestone
+   day: Sunday
+   date: Dec 16
+   room:
+   title: Oral presentation
+   desc: Selection of papers to present.
+   link: oral
+   material: instructions
 
 #-  id: Lecture 8
    #day: Wednesday
@@ -96,20 +96,20 @@
    #desc: Siamese, triplet, and batch-wise loss functions. Embedding, pooling, dimensionality reduction and manifold learning. Partial matching, spatial matching, quantization, diffusion.
    #slides: ret
 
-#-  class: warning
-   #id: Evaluation 1
-   #day: Wednesday
-   #date: Jan 24
-   #room: B12D i-58 (44)
-   #title: Written exam
+-  class: warning
+   id: Evaluation 1
+   day: Wednesday
+   date: Jan 16
+   room: B12D i-58 (44)
+   title: Written exam
 
-#-  class: warning
-   #id: Evaluation 2
-   #day: Monday
-   #date: Jan 29
-   #room: Jersey
-   #title: Oral presentations
-   #desc: 08:00 - 12:00
-   #link: oral
-   #material: instructions
+-  class: warning
+   id: Evaluation 2
+   day: Monday
+   date: Jan 21
+   room:
+   title: Oral presentations
+   desc:
+   link: oral
+   material: instructions
 
