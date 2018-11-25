@@ -11,7 +11,7 @@
    date: Nov 21
    room: B12D i-58 (44)
    title: Representation
-   desc: Global/local visual descriptors, dense/sparse representation, feature detectors. Encoding/pooling, vocabularies, bag-of-words. VLAD*, Fisher vectors*, embeddings*. HMAX.
+   desc: Global/local visual descriptors, dense/sparse representation, feature detectors. Encoding/pooling, vocabularies, bag-of-words. VLAD*, Fisher vectors*, embeddings*. HMAX*.
    slides: repr
 
 -  id: Lecture 3
