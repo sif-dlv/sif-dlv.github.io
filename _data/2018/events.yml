@@ -19,7 +19,7 @@
    date: Nov 26
    room: B12D i-58 (44)
    title: Local features and spatial matching
-   desc: Derivatives, scale space and scale selection. Edges, corners/junctions. Dense optical flow / sparse feature tracking. Wide-baseline matching. Geometric models, RANSAC*, Hough transform*. Fast spatial matching*.
+   desc: Derivatives, scale space and scale selection. Edges, blobs, corners/junctions. Dense optical flow / sparse feature tracking. Wide-baseline matching. Geometric models, RANSAC*, Hough transform*. Fast spatial matching*.
    slides: match
 
 -  id: Lecture 4
@@ -27,22 +27,14 @@
    date: Nov 28
    room: B12D i-58 (44)
    title: Codebooks and kernels
-   #desc: Clustering, dimensionality reduction, density estimation, nearest neighbor search. Tree-based methods, hashing, product quantization. Inverted index and multi-index.
-   #slides: index
+   desc: Geometry/appearance matching. Bag-of-words. Clustering: k-means, hierarchical*, approximate*, vocabulary tree*. Soft assignment, max pooling. Match kernels, Hamming embedding, VLAD*, ASMK*. Pyramid matching, spatial pyramids. Hough pyramids*.
+   slides: code
 
-#-  id: Lecture 4
-   #day: Wednesday
-   #date: Dec 6
-   #room: B12D i-58 (44)
-   #title: Indexing
-   #desc: Clustering, dimensionality reduction, density estimation, nearest neighbor search. Tree-based methods, hashing, product quantization. Inverted index and multi-index.
-   #slides: index
-
-#-  id: Lecture 5
-   #day: Monday
-   #date: Dec 11
-   #room: B12D i-58 (44)
-   #title: Learning
+-  id: Lecture 5
+   day: Wednesday
+   date: Dec 5
+   room: B12D i-58 (44)
+   title: Learning
    #desc: Naive Bayes, nearest neighbor classification. Regression, classification. Logistic regression, support vector machines, neural networks. Activation functions, loss functions, gradient descent.
    #slides: learn
 
