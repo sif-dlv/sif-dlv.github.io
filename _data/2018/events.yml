@@ -27,7 +27,7 @@
    date: Nov 28
    room: B12D i-58 (44)
    title: Codebooks and kernels
-   desc: Geometry/appearance matching. Bag-of-words. k-means clustering, hierarchical*, approximate*, vocabulary tree*. Soft assignment, max pooling. Match kernels, Hamming embedding, VLAD*, ASMK*. Pyramid matching, spatial pyramids. Hough pyramids*.
+   desc: Geometry/appearance matching. Bag-of-words. k-means clustering, hierarchical*, approximate*, vocabulary tree*. Soft assignment, max pooling. Match kernels, Hamming embedding, ASMK*. Pyramid matching, spatial pyramids. Hough pyramids*.
    slides: code
 
 -  id: Lecture 5
@@ -35,8 +35,16 @@
    date: Dec 5
    room: B12D i-58 (44)
    title: Learning
-   #desc: Naive Bayes, nearest neighbor classification. Regression, classification. Logistic regression, support vector machines, neural networks. Activation functions, loss functions, gradient descent.
-   #slides: learn
+   desc: Binary classification: perceptron, support vector machines, logistic regression. Gradient descent, regularization, loss functions, unified model. Multi-class classification. Linear regression*, basis functions. Neural networks, activation functions.
+   slides: learn
+
+-  id: Lecture 6
+   day: Monday
+   date: Dec 10
+   room: B12D i-58 (44)
+   title: Differentiation
+   #desc: Computational graphs, back-propagation, automatic differentiation.
+   #slides: diff
 
 #-  id: Lecture 6
    #day: Wednesday
