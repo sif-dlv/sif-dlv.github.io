@@ -108,61 +108,6 @@ h3 {
   display: inline-block;
 }
 
-#inputlayer {
-  width: 65px;
-}
-.layer {
-  width: 35px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-.actmap {
-  display: block;
-  border: 2px solid #FFF;
-}
-#convnetvis {
-  text-align: center;
-}
-#probsdiv {
-
-}
-.pp {
-  color: white;
-  text-align: left;
-  padding: 5px;
-  height: 32px;
-  margin: 2px;
-  background-color: rgb(85,187,85);
-  overflow: visible !important;
-}
-
-#convask {
-  position: absolute;
-  top: 360px;
-  right: 16px;
-  color: white;
-  font-size: 25px;
-  cursor: pointer;
-}
-
-#explain {
-  display: none;
-  background-color: #FF9;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
-}
-.qq {
-  color: #060;
-}
-.qa {
-  font-style: italic;
-}
-.qqa {
-  margin-bottom: 20px;
-}
 .spanh {
   font-weight: normal;
 }
