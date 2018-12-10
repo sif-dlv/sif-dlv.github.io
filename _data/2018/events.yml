@@ -43,16 +43,16 @@
    date: Dec 10
    room: B12D i-58 (44)
    title: Differentiation
-   #desc: Computational graphs, back-propagation, automatic differentiation.
-   #slides: diff
+   desc: Stochastic gradient descent. Numerical gradient approximation. Function decomposition, chain rule, analytical gradient computation, back-propagation. Chaining, splitting and sharing. Common forward and backward flow patterns. Dynamic automatic differentiation.
+   slides: diff
 
-#-  id: Lecture 6
-   #day: Wednesday
-   #date: Dec 13
-   #room: B12D i-58 (44)
-   #title: Differentiation
-   #desc: Computational graphs, back-propagation, automatic differentiation.
-   #slides: diff
+-  id: Lecture 7
+   day: Wednesday
+   date: Dec 12
+   room: B12D i-58 (44)
+   title: Convolution
+   #desc: Pooling, strided convolution, dilated convolution. Convolutional networks. Deconvolution, fully convolutional networks.
+   #slides: conv
 
 #-  id: Lecture 7
    #day: Monday
