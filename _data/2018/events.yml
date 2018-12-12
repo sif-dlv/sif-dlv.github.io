@@ -52,8 +52,9 @@
    room: B12D i-58 (44)
    title: Convolution and network architectures
    desc: Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional network architectures from LeNet-5 to GoogLeNet.
-
    slides: conv
+   link: https://github.com/iavr/pynet
+   material: pynet
 
 -  class: info
    id: Milestone
