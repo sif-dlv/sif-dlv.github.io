@@ -45,6 +45,8 @@
    title: Differentiation
    desc: Stochastic gradient descent. Numerical gradient approximation. Function decomposition, chain rule, analytical gradient computation, back-propagation. Chaining, splitting and sharing. Common forward and backward flow patterns. Dynamic automatic differentiation.
    slides: diff
+   link: https://github.com/iavr/pynet
+   material: pynet
 
 -  id: Lecture 7
    day: Wednesday
@@ -53,8 +55,6 @@
    title: Convolution and network architectures
    desc: Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional network architectures from LeNet-5 to GoogLeNet.
    slides: conv
-   link: https://github.com/iavr/pynet
-   material: pynet
 
 -  class: info
    id: Milestone
