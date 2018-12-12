@@ -50,17 +50,10 @@
    day: Wednesday
    date: Dec 12
    room: B12D i-58 (44)
-   title: Convolution
-   #desc: Pooling, strided convolution, dilated convolution. Convolutional networks. Deconvolution, fully convolutional networks.
-   #slides: conv
+   title: Convolution and network architectures
+   desc: Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional network architectures from LeNet-5 to GoogLeNet.
 
-#-  id: Lecture 7
-   #day: Monday
-   #date: Dec 18
-   #room: B12D i-58 (44)
-   #title: Convolution
-   #desc: Pooling, strided convolution, dilated convolution. Convolutional networks. Deconvolution, fully convolutional networks.
-   #slides: conv
+   slides: conv
 
 -  class: info
    id: Milestone
@@ -71,6 +64,14 @@
    desc: Selection of papers to present.
    link: oral
    material: instructions
+
+-  id: Lecture 8
+   day: Monday
+   date: Dec 17
+   room: B12D i-58 (44)
+   title: Optimization
+   #desc: Parameter initialization, data-dependent initialization, normalization, regularization. Optimization methods, second-order methods, Hessian-free methods.
+   #slides: opt
 
 #-  id: Lecture 8
    #day: Wednesday
