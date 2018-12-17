@@ -53,7 +53,7 @@
    date: Dec 12
    room: B12D i-58 (44)
    title: Convolution and network architectures
-   desc: Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional network architectures from LeNet-5 to GoogLeNet.
+   desc: "Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional networks: LeNet-5, AlexNet, ZFNet*, VGG, NiN*, GoogLeNet."
    slides: conv
 
 -  class: info
@@ -70,17 +70,17 @@
    day: Monday
    date: Dec 17
    room: B12D i-58 (44)
-   title: Optimization
-   #desc: Parameter initialization, data-dependent initialization, normalization, regularization. Optimization methods, second-order methods, Hessian-free methods.
-   #slides: opt
+   title: Optimization and deeper architectures
+   desc: "Optimizers: momentum, RMSprop, Adam, second-order*. Initialization: Gaussian matrices, unit variance, orthogonal*, data-dependent*. Normalization: input, batch, layer*, weight*. Deeper networks: residual, identity mappings, stochastic depth*, densely connected."
+   slides: opt
 
-#-  id: Lecture 8
-   #day: Wednesday
-   #date: Jan 10
-   #room: B12D i-58 (44)
-   #title: Optimization
-   #desc: Parameter initialization, data-dependent initialization, normalization, regularization. Optimization methods, second-order methods, Hessian-free methods.
-   #slides: opt
+-  id: Lecture 9
+   day: Monday
+   date: Jan 7
+   room: B12D i-58 (44)
+   title: Detection
+   #desc: Class-agnostic region proposals, bounding box regression, non-maxima suppression, part-based models, spatial transformers, attention networks.
+   #slides: det
 
 #-  id: Lecture 9
    #day: Monday
@@ -89,6 +89,14 @@
    #title: Detection
    #desc: Class-agnostic region proposals, bounding box regression, non-maxima suppression, part-based models, spatial transformers, attention networks.
    #slides: det
+
+-  id: Lecture 10
+   day: Monday
+   date: Jan 9
+   room: B12D i-58 (44)
+   title: Retrieval
+   #desc: Siamese, triplet, and batch-wise loss functions. Embedding, pooling, dimensionality reduction and manifold learning. Partial matching, spatial matching, quantization, diffusion.
+   #slides: ret
 
 #-  id: Lecture 10
    #day: Monday
