@@ -78,20 +78,12 @@
    day: Monday
    date: Jan 7
    room: B12D i-58 (44)
-   title: Detection
-   #desc: Class-agnostic region proposals, bounding box regression, non-maxima suppression, part-based models, spatial transformers, attention networks.
-   #slides: det
-
-#-  id: Lecture 9
-   #day: Monday
-   #date: Jan 15
-   #room: B12D i-58 (44)
-   #title: Detection
-   #desc: Class-agnostic region proposals, bounding box regression, non-maxima suppression, part-based models, spatial transformers, attention networks.
-   #slides: det
+   title: Object detection
+   desc: "Background: Viola \& Jones, DPM, ISM, ESS, object proposals, non-maximum suppression. Two-stage: R-CNN, SPP, fast/faster R-CNN, RPN. Bounding box regression. Part-based: R-FCN, spatial transformers*, deformable convolution. Upsampling: FCN, feature pyramids. One-stage: OverFeat, YOLO, SSD, RetinaNet, focal loss."
+   slides: det
 
 -  id: Lecture 10
-   day: Monday
+   day: Wednesday
    date: Jan 9
    room: B12D i-58 (44)
    title: Retrieval
