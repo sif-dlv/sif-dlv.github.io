@@ -79,7 +79,7 @@
    date: Jan 7
    room: B12D i-58 (44)
    title: Object detection
-   desc: "Background: Viola and Jones, DPM, ISM, ESS, object proposals, non-maximum suppression. Two-stage: R-CNN, SPP, fast/faster R-CNN, RPN. Bounding box regression. Part-based: R-FCN, spatial transformers*, deformable convolution. Upsampling*: FCN, feature pyramids. One-stage: OverFeat, YOLO, SSD*, RetinaNet*, focal loss."
+   desc: "Background: Viola and Jones, DPM, ISM, ESS, object proposals, non-maximum suppression. Two-stage: R-CNN, SPP, fast/faster R-CNN, RPN. Bounding box regression. Part-based: R-FCN, spatial transformers*, deformable convolution. Upsampling*: FCN, feature pyramids. One-stage: OverFeat*, YOLO, SSD*, RetinaNet*, focal loss."
    slides: det
 
 -  id: Lecture 10
