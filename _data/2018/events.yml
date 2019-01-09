@@ -87,16 +87,8 @@
    date: Jan 9
    room: B12D i-58 (44)
    title: Retrieval
-   #desc: Siamese, triplet, and batch-wise loss functions. Embedding, pooling, dimensionality reduction and manifold learning. Partial matching, spatial matching, quantization, diffusion.
-   #slides: ret
-
-#-  id: Lecture 10
-   #day: Monday
-   #date: Jan 22
-   #room: B12D i-58 (44)
-   #title: Retrieval
-   #desc: Siamese, triplet, and batch-wise loss functions. Embedding, pooling, dimensionality reduction and manifold learning. Partial matching, spatial matching, quantization, diffusion.
-   #slides: ret
+   desc: "Local vs. global descriptors for visual search. Pooling from CNN representations: MAC, R-MAC, SPoC*, CroW*. Manifold learning, siamese and triplet architectures. Fine-tuning with constrastive or triplet loss, learning to rank. Graph-based methods, diffusion, unsupervised fine-tuning."
+   slides: ret
 
 -  class: warning
    id: Evaluation 1
