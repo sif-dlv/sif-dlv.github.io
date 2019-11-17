@@ -1,7 +1,7 @@
 -  id: Lecture 1
    day: Monday
    date: Nov 18
-   room: B12D i-58 (44)
+   room: B02B-E110 (23)
    title: Introduction
    desc: Research field. Neuroscience, computer vision and machine learning background. Modern deep learning. About this course.
    slides: intro
@@ -9,7 +9,7 @@
 -  id: Lecture 2
    day: Wednesday
    date: Nov 20
-   room: B12D i-58 (44)
+   room: B02B-E110 (23)
    title: Visual representation
    desc: Global/local visual descriptors, dense/sparse representation, local feature detectors. Encoding/pooling, vocabularies, bag-of-words. VLAD*, Fisher vectors*, embeddings*. HMAX*.
    #slides: repr
