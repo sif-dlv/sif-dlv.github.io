@@ -12,38 +12,38 @@
    room: B12D i-60 (44)
    title: Visual representation
    desc: Global/local visual descriptors, dense/sparse representation, local feature detectors. Encoding/pooling, vocabularies, bag-of-words. VLAD*, Fisher vectors*, embeddings*. HMAX*.
-   #slides: repr
+   slides: repr
 
-#-  id: Lecture 3
-   #day: Monday
-   #date: Nov 26
-   #room: B12D i-58 (44)
-   #title: Local features and spatial matching
-   #desc: Derivatives, scale space and scale selection. Edges, blobs, corners/junctions. Dense optical flow / sparse feature tracking. Wide-baseline matching. Geometric models, RANSAC*, Hough transform*. Fast spatial matching*.
+-  id: Lecture 3
+   day: Monday
+   date: Nov 26
+   room: Jersey
+   title: Local features and spatial matching
+   desc: Derivatives, scale space and scale selection. Edges, blobs, corners/junctions. Dense optical flow / sparse feature tracking. Wide-baseline matching. Geometric models, RANSAC*, Hough transform*. Fast spatial matching*.
    #slides: match
 
-#-  id: Lecture 4
-   #day: Wednesday
-   #date: Nov 28
-   #room: B12D i-58 (44)
-   #title: Codebooks and kernels
-   #desc: Geometry/appearance matching. Bag-of-words. k-means clustering, hierarchical*, approximate*, vocabulary tree*. Soft assignment, max pooling. Match kernels, Hamming embedding, ASMK*. Pyramid matching, spatial pyramids. Hough pyramids*.
+-  id: Lecture 4
+   day: Wednesday
+   date: Nov 28
+   room: B12D i-58 (44)
+   title: Codebooks and kernels
+   desc: Geometry/appearance matching. Bag-of-words. k-means clustering, hierarchical*, approximate*, vocabulary tree*. Soft assignment, max pooling. Match kernels, Hamming embedding, ASMK*. Pyramid matching, spatial pyramids. Hough pyramids*.
    #slides: code
 
-#-  id: Lecture 5
-   #day: Wednesday
-   #date: Dec 5
-   #room: B12D i-58 (44)
-   #title: Learning
-   #desc: Binary classification. Perceptron, support vector machines, logistic regression. Gradient descent, regularization, loss functions, unified model. Multi-class classification. Linear regression*, basis functions. Neural networks, activation functions.
+-  id: Lecture 5
+   day: Wednesday
+   date: Dec 5
+   room: B12D i-51 (64)
+   title: Learning
+   desc: Binary classification. Perceptron, support vector machines, logistic regression. Gradient descent, regularization, loss functions, unified model. Multi-class classification. Linear regression*, basis functions. Neural networks, activation functions.
    #slides: learn
 
-#-  id: Lecture 6
-   #day: Monday
-   #date: Dec 10
-   #room: B12D i-58 (44)
-   #title: Differentiation
-   #desc: Stochastic gradient descent. Numerical gradient approximation. Function decomposition, chain rule, analytical gradient computation, back-propagation. Chaining, splitting and sharing. Common forward and backward flow patterns. Dynamic automatic differentiation.
+-  id: Lecture 6
+   day: Monday
+   date: Dec 10
+   room: B12D i-51 (64)
+   title: Differentiation
+   desc: Stochastic gradient descent. Numerical gradient approximation. Function decomposition, chain rule, analytical gradient computation, back-propagation. Chaining, splitting and sharing. Common forward and backward flow patterns. Dynamic automatic differentiation.
    #slides: diff
    #link: https://github.com/iavr/pynet
    #material: pynet
