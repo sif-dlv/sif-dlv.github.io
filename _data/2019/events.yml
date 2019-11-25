@@ -19,7 +19,7 @@
    date: Nov 26
    room: Jersey
    title: Local features and spatial matching
-   desc: Derivatives, scale space and scale selection. Edges, blobs, corners/junctions. Dense optical flow / sparse feature tracking. Wide-baseline matching. Geometric models, RANSAC*, Hough transform*. Fast spatial matching*.
+   desc: Derivatives, scale space and scale selection. Edges, blobs, corners/junctions. Dense optical flow* / sparse feature tracking*. Wide-baseline matching. Geometric models, RANSAC, Hough transform. Fast spatial matching*.
    #slides: match
 
 -  id: Lecture 4
