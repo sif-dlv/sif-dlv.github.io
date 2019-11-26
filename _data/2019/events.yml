@@ -27,7 +27,7 @@
    date: Nov 28
    room: B12D i-58 (44)
    title: Codebooks and kernels
-   desc: Geometry/appearance matching. Bag-of-words. k-means clustering, hierarchical*, approximate*, vocabulary tree*. Soft assignment, max pooling. Match kernels, Hamming embedding, ASMK*. Pyramid matching, spatial pyramids. Hough pyramids*.
+   desc: Geometry/appearance matching. Bag-of-words. k-means clustering, hierarchical*, approximate*, vocabulary tree*. Soft assignment, max pooling*. Match kernels, Hamming embedding, ASMK*. Pyramid matching, spatial pyramids. Hough pyramids*.
    #slides: code
 
 -  id: Lecture 5
