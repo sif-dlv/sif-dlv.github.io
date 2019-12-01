@@ -31,16 +31,16 @@
    slides: code
 
 -  id: Lecture 5
-   day: Wednesday
-   date: Dec 5
+   day: Monday
+   date: Dec 2
    room: B12D i-51 (64)
    title: Learning
    desc: Binary classification. Perceptron, support vector machines, logistic regression. Gradient descent, regularization, loss functions, unified model. Multi-class classification. Linear regression*, basis functions. Neural networks, activation functions.
    #slides: learn
 
 -  id: Lecture 6
-   day: Monday
-   date: Dec 10
+   day: Wednesday
+   date: Dec 4
    room: B12D i-51 (64)
    title: Differentiation
    desc: Stochastic gradient descent. Numerical gradient approximation. Function decomposition, chain rule, analytical gradient computation, back-propagation. Chaining, splitting and sharing. Common forward and backward flow patterns. Dynamic automatic differentiation.
@@ -48,12 +48,12 @@
    #link: https://github.com/iavr/pynet
    #material: pynet
 
-#-  id: Lecture 7
-   #day: Wednesday
-   #date: Dec 12
-   #room: B12D i-58 (44)
-   #title: Convolution and network architectures
-   #desc: "Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional networks: LeNet-5, AlexNet, ZFNet*, VGG, NiN*, GoogLeNet."
+-  id: Lecture 7
+   day: Wednesday
+   date: Dec 11
+   room: B12D i-59 (44)
+   title: Convolution and network architectures
+   desc: "Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional networks: LeNet-5, AlexNet, ZFNet*, VGG, NiN*, GoogLeNet."
    #slides: conv
 
 -  class: info
@@ -66,20 +66,20 @@
    link: oral
    material: instructions
 
-#-  id: Lecture 8
-   #day: Monday
-   #date: Dec 17
-   #room: B12D i-58 (44)
-   #title: Optimization and deeper architectures
-   #desc: "Optimizers: momentum, RMSprop, Adam, second-order*. Initialization: Gaussian matrices, unit variance, orthogonal*, data-dependent*. Normalization: input, batch, layer*, weight*. Deeper networks: residual, identity mappings*, stochastic depth*, densely connected."
+-  id: Lecture 8
+   day: Monday
+   date: Dec 16
+   room: B12D i-60 (44)
+   title: Optimization and deeper architectures
+   desc: "Optimizers: momentum, RMSprop, Adam, second-order*. Initialization: Gaussian matrices, unit variance, orthogonal*, data-dependent*. Normalization: input, batch, layer*, weight*. Deeper networks: residual, identity mappings*, stochastic depth*, densely connected."
    #slides: opt
 
-#-  id: Lecture 9
-   #day: Monday
-   #date: Jan 7
-   #room: B12D i-58 (44)
-   #title: Object detection
-   #desc: "Background: Viola and Jones, DPM, ISM, ESS, object proposals, non-maximum suppression. Two-stage: R-CNN, SPP, fast/faster R-CNN, RPN. Bounding box regression. Part-based: R-FCN, spatial transformers*, deformable convolution. Upsampling*: FCN, feature pyramids. One-stage: OverFeat*, YOLO, SSD*, RetinaNet*, focal loss."
+-  id: Lecture 9
+   day: Monday
+   date: Dec 18
+   room: B12D i-60 (44)
+   title: Object detection
+   desc: "Background: Viola and Jones, DPM, ISM, ESS, object proposals, non-maximum suppression. Two-stage: R-CNN, SPP, fast/faster R-CNN, RPN. Bounding box regression. Part-based: R-FCN, spatial transformers*, deformable convolution. Upsampling*: FCN, feature pyramids. One-stage: OverFeat*, YOLO, SSD*, RetinaNet*, focal loss."
    #slides: det
 
 #-  id: Lecture 10
