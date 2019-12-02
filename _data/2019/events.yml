@@ -36,7 +36,7 @@
    room: B12D i-51 (64)
    title: Learning
    desc: Binary classification. Perceptron, support vector machines, logistic regression. Gradient descent, regularization, loss functions, unified model. Multi-class classification. Linear regression*, basis functions. Neural networks, activation functions.
-   #slides: learn
+   slides: learn
 
 -  id: Lecture 6
    day: Wednesday
