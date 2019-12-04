@@ -44,9 +44,9 @@
    room: B12D i-51 (64)
    title: Differentiation
    desc: Stochastic gradient descent. Numerical gradient approximation. Function decomposition, chain rule, analytical gradient computation, back-propagation. Chaining, splitting and sharing. Common forward and backward flow patterns. Dynamic automatic differentiation.
-   #slides: diff
-   #link: https://github.com/iavr/pynet
-   #material: pynet
+   slides: diff
+   link: https://github.com/iavr/pynet
+   material: pynet
 
 -  id: Lecture 7
    day: Wednesday
