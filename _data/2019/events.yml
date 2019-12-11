@@ -53,8 +53,8 @@
    date: Dec 11
    room: B12D i-59 (44)
    title: Convolution and network architectures
-   desc: "Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded, strided, dilated convolution. Pooling and invariance. Convolutional networks: LeNet-5, AlexNet, ZFNet*, VGG, NiN*, GoogLeNet."
-   #slides: conv
+   desc: "Convolution, cross-correlation, linearity, equivariance, weight sharing. Feature maps, matrix multiplication, 1x1 convolution. Padded*, strided*, dilated* convolution. Pooling and invariance. Convolutional networks: LeNet-5, AlexNet, ZFNet*, VGG, NiN*, GoogLeNet."
+   slides: conv
 
 -  class: info
    id: Milestone
