@@ -72,7 +72,7 @@
    room: B12D i-60 (44)
    title: Optimization and deeper architectures
    desc: "Optimizers: momentum, RMSprop, Adam, second-order*. Initialization: Gaussian matrices, unit variance, orthogonal*, data-dependent*. Normalization: input, batch, layer*, weight*. Deeper networks: residual, identity mappings*, stochastic depth*, densely connected."
-   #slides: opt
+   slides: opt
 
 -  id: Lecture 9
    day: Monday
