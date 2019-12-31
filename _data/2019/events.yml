@@ -82,28 +82,28 @@
    desc: "Background: Viola and Jones, DPM, ISM, ESS*, object proposals, non-maximum suppression. Two-stage: R-CNN, SPP, fast/faster R-CNN, RPN. Bounding box regression*. Part-based*: R-FCN, spatial transformers, deformable convolution. Upsampling: FCN, feature pyramids. One-stage: OverFeat, YOLO, SSD*, RetinaNet, focal loss."
    slides: det
 
-#-  id: Lecture 10
-   #day: Wednesday
-   #date: Jan 9
-   #room: B12D i-58 (44)
-   #title: Retrieval
-   #desc: "Local vs. global descriptors for visual search. Pooling from CNN representations: MAC, R-MAC, SPoC*, CroW*. Manifold learning, siamese and triplet architectures. Fine-tuning with constrastive or triplet loss, learning to rank. Graph-based methods, diffusion, unsupervised fine-tuning."
+-  id: Lecture 10
+   day: Monday
+   date: Jan 6
+   room: B12D i-59 (44)
+   title: Retrieval
+   desc: "Local vs. global descriptors for visual search. Pooling from CNN representations: MAC, R-MAC, SPoC*, CroW*. Manifold learning, siamese and triplet architectures. Fine-tuning with constrastive or triplet loss, learning to rank. Graph-based methods, diffusion, unsupervised fine-tuning."
    #slides: ret
 
-#-  class: warning
-   #id: Evaluation 1
-   #day: Wednesday
-   #date: Jan 16
-   #room: B12D i-58 (44)
-   #title: Written exam
+-  class: warning
+   id: Evaluation 1
+   day: Monday
+   date: Jan 13
+   room: B12D i-59 (44)
+   title: Written exam
 
-#-  class: warning
-   #id: Evaluation 2
-   #day: Monday
-   #date: Jan 21
-   #room: B12D i-58 (44)
-   #title: Oral presentations
-   #desc:
-   #link: oral
-   #material: instructions
+-  class: warning
+   id: Evaluation 2
+   day: Monday
+   date: Jan 20
+   room: B12D i-59 (44)
+   title: Oral presentations
+   desc:
+   link: oral
+   material: instructions
 
