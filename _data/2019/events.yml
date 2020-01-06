@@ -88,7 +88,7 @@
    room: B12D i-59 (44)
    title: Retrieval
    desc: "Local vs. global descriptors for visual search. Pooling from CNN representations: MAC, R-MAC, SPoC*, CroW*. Manifold learning, siamese and triplet architectures. Fine-tuning with constrastive or triplet loss, learning to rank. Graph-based methods, diffusion, unsupervised fine-tuning."
-   #slides: ret
+   slides: ret
 
 -  class: warning
    id: Evaluation 1
